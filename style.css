@@ -3,6 +3,32 @@
     margin: 0;
 }
 
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex: 1;
+    margin: 30px;
+}
+
+.clear-button, .grid-button {
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(1, 1, 104, 0.852), rgba(205, 205, 255, 0.847));
+}
+
+.clear-button:hover, .grid-button:hover {
+    background: linear-gradient(360deg, rgba(1, 1, 104, 0.852), rgba(205, 205, 255, 0.847));
+}
+
 .container {
     border: 5px solid black;
     display: flex;
@@ -11,10 +37,6 @@
     justify-content: center;
 }
 
-/* .item {
-    border: 1px solid blue;
-} */
-
-/* .item:hover {
-    border: 1px solid red;
-} */
+.item {
+    border: 1px solid white;
+}
