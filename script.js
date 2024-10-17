@@ -2,8 +2,8 @@ const buttons = document.querySelector('.buttons');
 const clearButton = document.querySelector('.clear-button');
 const gridButton = document.querySelector('.grid-button');
 const container = document.querySelector('.container');
-const sizes = 15;
-let grid = 30;
+const sizes = 25;
+let grid = 16;
 var tempColor = 'red';
 
 createDiv(grid, grid);
